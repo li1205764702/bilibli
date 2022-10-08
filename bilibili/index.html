@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</title>
+    <link rel="stylesheet" href="./css/reset.min.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./iconfont/font_3685592_9m2armumcwe/iconfont.css">
+    <link rel="stylesheet" href="./iconfont/font_3685605_l4lcxqolvle/iconfont.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./iconfont/悬浮窗/iconfont.css">
+    <!-- <link rel="stylesheet" href="./iconfont/观看/"> -->
+    <style>
+        .swiper {
+            width: 510px;
+            height: 375px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-button-next {
+            width: 28px;
+            height: 28px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 主体  -->
+    <div class="all">
+        <!-- 头部 -->
+        <header class="head">
+            <!-- 导航栏 -->
+            <div class="nav">
+                <ul class="nav-left">
+                    <li>
+                        <a href="#">
+                            <img src="./导航栏的logo/logo-1.png" alt="">
+                            <span>首页</span>
+                        </a>
+                    </li>
+                    <li id="jump"><a href="#"><span>番剧</span></a></li>
+                    <li id="jump"><a href="#"><span>直播</span></a></li>
+                    <li id="jump"><a href="#"><span>游戏中心</span></a></li>
+                    <li id="jump"><a href="#"><span>会员购</span></a></li>
+                    <li id="jump"><a href="#"><span>漫画</span></a></li>
+                    <li id="jump"><a href="#"><span>赛事</span></a></li>
+                    <li>
+                        <a href="#">
+                            <img src="./导航栏的logo/logo-2.png" alt="">
+                            <span>下载客户端</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="search">
+                    <div class="search-in">
+                        <form action="" id="search-in">
+                            <div class="search-content" id="search-content">
+                                <input type="text" placeholder="你瞅啥？" id="btn">
+                                <div class="search-clean">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"></svg>
+                                </div>
+                            </div>
+                            <div class="search-btn">
+                                <img src="./导航栏的logo/搜索小.png" alt="" style="width:16px ;height: 16px;">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <ul class="nav-right">
+                    <div class="hover" id="hover" style="z-index: 9999;">
+                        <li class="nav-right-first" id="nav-right-first">
+                            <a href="#" id="nav-first">
+                                <img src="./导航栏的logo/1f89729e8abdf4d9dc00b00ca4128e7.jpg" alt="">
+                            </a>
+
+                        </li>
+                        <div class="hoverPic">
+                            <a href="" class="name">向了个东</a>
+                            <a href="" class="money">
+                                <span style="color: #9499A0;">硬币:</span> <span>593</span> <span
+                                    style="color: #9499A0;">B逼:</span> <span>0</span></a>
+                            <a href="" class="level">
+                                当前成长7050,距离升级LV5还需要3750
+                            </a>
+                            <div class="fans">
+                                <a href="#">1<span>关注</span></a>
+                                <a href="#">1,027<span>粉丝</span></a>
+                                <a href="#">23<span>动态</span></a>
+                            </div>
+                            <div class="personal">
+                                <a href="#"><span class="iconfont"
+                                        style="font-size: 26px; font-weight: 500;">&#xe62a</span>
+                                    <p>个人中心</p>
+
+                                    <span class="iconfont" style="padding: 3px 0 0 0 ;">&#xe74e;</span>
+                                </a>
+                                <a href="#">
+                                    <span class="iconfont" style="font-size: 24px;  ">&#xe636</span>
+                                    <p>投稿管理</p>
+                                    <span class="iconfont" style="padding: 3px 0 0 0 ;">&#xe74e;</span>
+                                </a>
+                                <a href="#"><span class="iconfont"
+                                        style="font-size: 20px; font-weight: 500;">&#xe65a</span>
+                                    <p>推荐服务</p>
+                                    <span class="iconfont" style="padding: 3px 0 0 0 ;">&nbsp;&#xe74e;</span>
+                                </a>
+                                <div class="line"></div>
+                                <div class="out"><span class="iconfont">&#xe645;</span>退出登录</div>
+                            </div>
+                        </div>
+                    </div>
+                    <li id="jump">
+                        <a href="#">
+                            <img src="./导航栏的logo/我的大会员.png" alt="" style="width: 20px;height: 20px;">
+                            <span>大会员</span>
+                        </a>
+                    </li>
+                    <li id="jump">
+                        <a href="#">
+                            <img src="./导航栏的logo/消息.png" alt="">
+                            <span>消息</span>
+                        </a>
+                    </li>
+                    <li id="jump">
+                        <a href="#">
+                            <img src="./导航栏的logo/动态.png" alt="">
+                            <span>动态</span>
+                        </a>
+                    </li>
+                    <li id="jump">
+                        <a href="#">
+                            <img src="./导航栏的logo/收藏.png" alt="">
+                            <span>收藏</span>
+                        </a>
+                    </li>
+                    <li id="jump">
+                        <a href="#">
+                            <img src="./导航栏的logo/历史.png" alt="">
+                            <span>历史</span>
+                        </a>
+                    </li>
+                    <li id="jump">
+                        <a href="#">
+                            <img src="./导航栏的logo/创作中心.png" alt="">
+                            <span>创作中心</span>
+                        </a>
+                    </li>
+                    <li class="nav-right-last">
+                        <a href="#">
+                            <div class="nav-right-btn">
+                                <img src="./导航栏的logo/在线上传.png" alt="">
+                                <span>投稿</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="top-img">
+                <a href="#">
+                    <img src="./image/顶部图片.jpg" alt="" id="touch">
+                </a>
+                <div class="netImg">
+                    <a href="#">
+                        <img src="./导航栏的logo/站标.png" alt=""></a>
+                </div>
+                <p class="font">
+                    2022不好好学习你看你吗呢？>>
+                </p>
+            </div>
+            <div class="tag">
+                <div class="tag-left">
+                    <a href="#">
+                        <div class="tag-left-first">
+                            <img src="./导航栏的logo/动态.png" alt="">
+                        </div>
+                        <span>动态</span>
+                    </a>
+                    <a href="#">
+                        <div class="tag-left-second">
+                            <img src="./导航栏的logo/热门.png" alt="">
+                        </div>
+                        <span>热门</span>
+                    </a>
+                    <a href="#">
+                        <div class="tag-left-third">
+                            <img src="./导航栏的logo/融合频道.png" alt="">
+                        </div>
+                        <span>频道</span>
+                    </a>
+                </div>
+                <div class="tag-right">
+                    <div class="item-left">
+                        <a href="#">番剧</a>
+                        <a href="#">国创</a>
+                        <a href="#">综艺</a>
+                        <a href="#">动画</a>
+                        <a href="#">鬼畜</a>
+                        <a href="#">舞蹈</a>
+                        <a href="#">娱乐</a>
+                        <a href="#">科技</a>
+                        <a href="#">美食</a>
+                        <a href="#">汽车</a>
+                        <a href="#">运动</a>
+                        <a href="#">电影</a>
+                        <a href="#">电视剧</a>
+                        <a href="#">纪录片</a>
+                        <a href="#">游戏</a>
+                        <a href="#">音乐</a>
+                        <a href="#">影视</a>
+                        <a href="#">知识</a>
+                        <a href="#">咨询</a>
+                        <a href="#">生活</a>
+                        <a href="#">时尚</a>
+                        <a href="#">
+
+                            <span>更多</span>
+
+                        </a>
+
+                    </div>
+                    <div class="item-right">
+                        <a href="#">
+                            <p class="iconfont " style="font-size: 18px;">&#xe62f;</p>
+                            <span>专栏</span>
+                        </a>
+                        <a href="#">
+                            <p class="iconfont " style="font-size: 13px;">&#xe633;</p>
+                            <span>专栏</span>
+                        </a>
+                        <a href="#">
+                            <p class="iconfont " style="font-size: 14px;">&#xe600;</p>
+                            <span>专栏</span>
+                        </a>
+                        <a href="#">
+                            <p class="iconfont " style="font-size: 14px;">&#xe9a7;</p>
+                            <span>专栏</span>
+                        </a>
+                        <a href="#">
+                            <p class="iconfont ">&#xe62a;</p>
+                            <span>社区活动
+                            </span>
+                        </a>
+                        <a href="#">
+                            <p class="iconfont " style="font-size: 18px;">&#xe62f;</p>
+                            <span>新歌榜单</span>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <main class="main">
+            <!-- 轮播图以及右侧部分 -->
+            <div class="recommend">
+                <!-- 轮播图 -->
+                <div class="recommend_swiper">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./image/轮播图图片/1.avif" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="./image/轮播图图片/2.avif" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="./image/轮播图图片/3.avif" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="./image/轮播图图片/4.avif" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="./image/轮播图图片/5.avif" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="./image/轮播图图片/6.avif" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="./image/轮播图图片/7.avif" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="./image/轮播图图片/8.avif" alt="">
+                            </div>
+                            <div class="swiper-slide"><img src="./image/轮播图图片/9.avif" alt="">
+                            </div>
+
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <!-- 轮播图右侧 -->
+                <div class="recommend_content">
+                    <div class="content_card">
+
+                        <img src="" alt="">
+
+                        <div class="card">
+                            <h3>
+                                <a href="#"></a>
+                            </h3>
+                            <p class="upName">
+                                <img src="" alt="">
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="extension">
+                <div class="extension_top">
+                    <span class="iconfont"><img src="./image/店铺推广.png" alt=""></span>
+                    <p>推广</p>
+                </div>
+                <div class="extension_bottom">
+                    <div class="extension_content">
+                        <a href="" class="image">
+                            <img src="" alt="">
+                        </a>
+                        <div class="extension_card">
+                            <h3>
+                                <a href="#"></a>
+                            </h3>
+                            <p class="upName">
+                                <img src="" alt="">
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="extension_content">
+
+                    </div>
+                    <div class="extension_content">
+
+                    </div>
+                    <div class="extension_content">
+
+                    </div>
+                    <div class="extension_content"> -->
+
+
+                </div>
+            </div>
+            <div class="game">
+                <div class="game_top">
+                    <img src="./image/奖杯.png" alt="">
+                    <p>赛事</p>
+                </div>
+                <div class="game_bottom">
+                    <div class="game_content">
+                        <a href="#">
+                            <img src="" alt="">
+                        </a>
+                        <div class="game_card">
+                            <h3>
+
+                                <a href="#">
+
+                                </a>
+                            </h3>
+                            <p class="upName">
+                                <img src="" alt="">
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="AD1">
+                <img src="./image/轮播图图片/AD1.avif" alt="">
+            </div>
+            <div class="live">
+                <div class="live_left">
+                    <div class="left_top">
+                        <div class="top_left">
+                            <span><img src="./image/直播.png" alt=""></span>
+                            <p>直播</p>
+                        </div>
+                        <div class="top_right">
+                            <button class="change">
+                                <img src="./image/换一换 (1).png" alt="">
+                                <span>换一换</span>
+                            </button>
+                            <button class="more">
+                                <p>查看更多</p>
+                                <span class="iconfont">&#xe74e;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="left_content">
+                        <div class="live_content" style="display: none;">
+                            <a href="#">
+                                <img src="" alt="">
+                            </a>
+                            <div class="live_card">
+                                <div>
+
+                                    <a href="#">
+                                        <img src="./image/轮播图图片/live.gif" alt="">
+                                        直播中
+                                    </a>
+
+                                </div>
+                                <p class="upName">
+                                    <img src="" alt="">
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="live_right">
+                    <ul class="choiceCard">
+                        <li class="choice1 changed">直播排行</li>
+                        <li class="choice2">关注主播</li>
+                        <li class="choice3">为你推荐</li>
+                    </ul>
+                    <ul class="choiceCard_live divlist ">
+
+                        <li class="live1">
+                            <span></span>
+                            <div class="live_box">
+                                <img src="" alt="" class="imgb">
+                                <div class="box_in">
+                                    <div class="box_top">
+                                        <img src="./image/轮播图图片/live.gif" alt="">
+                                        <span></span>
+                                    </div>
+                                    <div class="box_bottom">
+                                        <p></p>
+                                        <div>
+                                            <span class="iconfont"></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <ul class="like_up divlist show"></ul>
+                    <ul class="tjblock divlist show">
+                        <li>
+                            <a href="">
+                                <img src="./image/直播/tj1.avif" alt="">
+                            </a>
+                            <div>
+                                <p>3D虚拟主播分区启动！</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./image/直播/tj2.avif" alt="">
+                            </a>
+                            <div>
+                                <p>游戏鉴赏家10月</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="AD2">
+                <img src="./image/轮播图图片/ad2.avif" alt="">
+            </div>
+        </main>
+        <footer>
+            <div class="wall">
+                <div class="linkbox">
+                    <div class="bilibili">
+                        <span>biliblili</span>
+                        <div>
+                            <a href="">关于我们</a>
+                            <a href="">联系我们</a>
+                            <a href="">用户协议</a>
+                            <a href="">加入我们</a>
+                            <a href="">友情链接</a>
+                            <a href="">隐私协议</a>
+                            <a href="">bilibli认证</a>
+                            <a href="">investor Relations</a>
+                        </div>
+                    </div>
+                    <div class="door">
+                        <span>传送门</span>
+                        <div>
+                            <a href="">协议汇总</a>
+                            <a href="">活动中心</a>
+                            <a href="">活动专题页</a>
+                            <a href="">侵权申诉</a>
+                            <a href="">帮助中心</a>
+                            <a href="">社区中心</a>
+                            <a href="">壁纸站</a>
+                            <a href="">广告合作</a>
+                            <a href="">名人堂</a>
+                            <a href="">MCN管理中心</a>
+                            <a href="">高级弹幕</a>
+                            <a href="">品牌号官网</a>
+                        </div>
+                    </div>
+                    <div class="app">
+                        <div>
+                            <a href="">
+                                <img src="./image/底部/下载.png" alt="">
+
+                            </a>
+                            <span>下载app</span>
+                        </div>
+                        <div>
+                            <a href="" style="background-color: #00AEEC;"><img src="./image/底部/公益.png" alt=""></a>
+                            <span>公益</span>
+                        </div>
+                        <div>
+                            <a href="" style="    background-color: #db4437"><img src="./image/底部/新浪微博.png" alt=""></a>
+                            <span>官方微博</span>
+                        </div>
+                        <div>
+                            <a href="" style="    background-color: #57bb40"><img src="./image/底部/微信.png" alt=""></a>
+                            <span>官方公众号</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="otherlink">
+                    <div class="link">
+                        <div class="text_line">
+                            <span>营业执照</span>
+                            <span>信息网络传播视听节目许可证：0910417</span>
+                            <span>网络文化经营许可证 沪网文【2019】3804-274号</span>
+                            <span>广播电视节目制作经营许可证：（沪）字第01248号</span>
+                            <span>增值电信业务经营许可证 沪B2-20100043</span>
+                        </div>
+                        <div class="text_line">
+                            <span>互联网ICP备案：沪ICP备13002172号-3</span>
+                            <span>出版物经营许可证 沪批字第U6699 号</span>
+                            <span>互联网药品信息服务资格证 沪-非经营性-2016-0143</span>
+                            <span>营业性演出许可证 沪市文演（经）00-2253 |</span>
+                        </div>
+                        <div class="text_line">
+                            <span>不良信息举报邮箱：help@bilibili.com</span>
+                            <span>涉未成年举报邮箱：teenprotect@bilibili.com</span>
+                            <span>不良信息举报电话：4006262233转1</span>
+                            <span>上海互联网举报中心 |</span>
+                            <span>12345政务服务便民热线 |</span>
+                        </div>
+                        <div class="text_line">
+                            <span>沪公网安备31011002002436号 |</span>
+                            <span>儿童色情信息举报专区 |</span>
+                            <span>扫黄打非举报</span>
+                        </div>
+                        <div class="text_line">
+                            <span>网上有害信息举报专区：</span>
+                            <span>中国互联网违法和不良信息举报中心</span>
+                            <span>亲爱的市民朋友，上海警方反诈劝阻电话“96110”系专门针对避免您财产被骗受损而设，请您一旦收到来电，立即接听。</span>
+                        </div>
+                        <div class="text_line">
+                            <span>公司名称：上海宽娱数码科技有限公司 |</span>
+                            <span>公司地址：上海市杨浦区政立路485号 |</span>
+                            <span>电话：021-25099888</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_img">
+                    <a href=""><img src="./image/底部/合作机构.png" alt=""></a>
+                    <a href=""><img src="./image/底部/看看新闻.png" alt=""></a>
+                    <a href=""><img src="./image/底部/举报.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+        <div class="fixRight">
+            <div class="open">
+                <span class="iconfont">&#xe629</span>
+                <p>分区</p>
+            </div>
+            <div class="tel">
+                <span class="iconfont">&#xec2e</span>
+                <p>客服</p>
+            </div>
+            <div class="old">
+                <p>回到旧版</p>
+            </div>
+            <div class="Top">
+                <span class="iconfont">&#xe600</span>
+                <p>顶部</p>
+            </div>
+        </div>
+        <div class="nav1 none">
+            <ul class="nav-left">
+                <li>
+                    <a href="#">
+                        <img src="./导航栏的logo/BILIBILI_LOGO.png" alt="" class="">
+                        <span>首页</span>
+                    </a>
+                </li>
+                <li id="jump"><a href="#"><span>番剧</span></a></li>
+                <li id="jump"><a href="#"><span>直播</span></a></li>
+                <li id="jump"><a href="#"><span>游戏中心</span></a></li>
+                <li id="jump"><a href="#"><span>会员购</span></a></li>
+                <li id="jump"><a href="#"><span>漫画</span></a></li>
+                <li id="jump"><a href="#"><span>赛事</span></a></li>
+                <li>
+                    <a href="#">
+                        <img src="./导航栏的logo/下载.png" alt="">
+                        <span>下载客户端</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="search">
+                <div class="search-in">
+                    <form action="" id="search-in">
+                        <div class="search-content" id="search-content">
+                            <input type="text" placeholder="你瞅啥？" id="btn">
+                            <div class="search-clean">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"></svg>
+                            </div>
+                        </div>
+                        <div class="search-btn">
+                            <img src="./导航栏的logo/搜索小.png" alt="" style="width:16px ;height: 16px;">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <ul class="nav-right">
+                <div class="hover" id="hover" style="z-index: 9999;">
+                    <li class="nav-right-first" id="nav-right-first">
+                        <a href="#" id="nav-first">
+                            <img src="./导航栏的logo/1f89729e8abdf4d9dc00b00ca4128e7.jpg" alt="">
+                        </a>
+
+                    </li>
+                    <div class="hoverPic">
+                        <a href="" class="name">向了个东</a>
+                        <a href="" class="money">
+                            <span style="color: #9499A0;">硬币:</span> <span>593</span> <span
+                                style="color: #9499A0;">B逼:</span> <span>0</span></a>
+                        <a href="" class="level">
+                            当前成长7050,距离升级LV5还需要3750
+                        </a>
+                        <div class="fans">
+                            <a href="#">1<span>关注</span></a>
+                            <a href="#">1,027<span>粉丝</span></a>
+                            <a href="#">23<span>动态</span></a>
+                        </div>
+                        <div class="personal">
+                            <a href="#"><span class="iconfont" style="font-size: 26px; font-weight: 500;">&#xe62a</span>
+                                <p>个人中心</p>
+
+                                <span class="iconfont" style="padding: 3px 0 0 0 ;">&#xe74e;</span>
+                            </a>
+                            <a href="#">
+                                <span class="iconfont" style="font-size: 24px;  ">&#xe636</span>
+                                <p>投稿管理</p>
+                                <span class="iconfont" style="padding: 3px 0 0 0 ;">&#xe74e;</span>
+                            </a>
+                            <a href="#"><span class="iconfont" style="font-size: 20px; font-weight: 500;">&#xe65a</span>
+                                <p>推荐服务</p>
+                                <span class="iconfont" style="padding: 3px 0 0 0 ;">&nbsp;&#xe74e;</span>
+                            </a>
+                            <div class="line"></div>
+                            <div class="out"><span class="iconfont">&#xe645;</span>退出登录</div>
+                        </div>
+                    </div>
+                </div>
+                <li id="jump">
+                    <a href="#">
+
+                        <span>大会员</span>
+                    </a>
+                </li>
+                <li id="jump">
+                    <a href="#">
+
+                        <span id="jump">消息</span>
+                    </a>
+                </li>
+                <li id="jump">
+                    <a href="#">
+
+                        <span id="jump">动态</span>
+                    </a>
+                </li>
+                <li id="jump">
+                    <a href="#">
+
+                        <span id="jump">收藏</span>
+                    </a>
+                </li>
+                <li id="jump">
+                    <a href="#">
+
+                        <span id="jump">历史</span>
+                    </a>
+                </li>
+                <li id="jump">
+                    <a href="#">
+
+                        <span id="jump">创作中心</span>
+                    </a>
+                </li>
+                <li class="nav-right-last">
+                    <a href="#">
+                        <div class="nav-right-btn">
+                            <img src="./导航栏的logo/在线上传.png" alt="">
+                            <span id="jump">投稿</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- swiper -->
+    <script src="./swiper/swiper-bundle.min.js"></script>
+
+    <script src="./index.js"></script>
+    <script src="./json.js"></script>
+    <script src="./scroll.js"></script>
+    <!-- swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+
+</html>

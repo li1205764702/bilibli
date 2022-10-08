@@ -1,0 +1,151 @@
+[
+    {
+        "pic": "../image/轮播图图片/r1.webp",
+        "text": "【Web前端】HTML+CSS制作小米商城官网_HTML+CSS+JS练手项目实战_小米商城实战练习_小米商城网页制作（附源码+文档）",
+        "name": "&nbsp;云夜月&nbsp;·&nbsp;9-28",
+        "imga": "../image/轮播图图片/UP.png"
+    },
+    {
+        "pic": "../image/轮播图图片/r2.webp",
+        "text": "【bychhh】泰拉瑞亚1.4.4版本，完整的新增内容介绍来了！——泰拉瑞亚新版本介绍",
+        "name": "&nbsp;bychhh&nbsp;·&nbsp;10-3",
+        "imga": "../image/轮播图图片/UP.png"
+    },
+    {
+        "pic": "../image/轮播图图片/r3.webp",
+        "text": "【徐静雨】为何当初我就主张要调查乌度卡？世间百态，不过是人性的反复上演！",
+        "name": "&nbsp;雨说体育徐静雨&nbsp;·&nbsp;9-23",
+        "imga": "../image/轮播图图片/UP.png"
+    },
+    {
+        "pic": "../image/轮播图图片/r4.webp",
+        "text": "十分钟学会正确的github工作流，和开源作者们使用同一套流程",
+        "name": "&nbsp;码农高天&nbsp;·&nbsp;9-30",
+        "imga": "../image/轮播图图片/UP.png"
+    },
+    {
+        "pic": "../image/轮播图图片/r5.webp",
+        "text": "此片献给每一位为霍格沃茨保卫战出力的巫师们，辛苦了，你们是最棒的",
+        "name": "&nbsp;myokey_哈利波特&nbsp;·&nbsp;10-3",
+        "imga": "../image/轮播图图片/UP.png"
+    },
+    {
+        "pic": "../image/轮播图图片/r6.webp",
+        "text": "【周淑怡x咬人猫x欣小萌】 三人一起！爱你！",
+        "name": "&nbsp;=咬人喵=&nbsp;·&nbsp;10-4",
+        "imga": "../image/轮播图图片/UP.png",
+        "ad": "../image/轮播图图片/广告.png"
+    },
+    {
+        "pic": "../image/轮播图图片/t1.avif",
+        "text": "靠剪片子也能实现经济独立？！！",
+        "name": "&nbsp中职通",
+        "imga": "../image/轮播图图片/UP.png",
+        "ad": "../image/轮播图图片/广告.png"
+    },
+    {
+        "pic": "../image/轮播图图片/t2.avif",
+        "text": "靠剪片子也能实现经济独立？！！",
+        "name": "&nbsp暮岑噢耶&nbsp;·&nbsp;9-2",
+        "imga": "../image/轮播图图片/UP.png",
+        "ad": "../image/轮播图图片/广告.png"
+    },
+    {
+        "pic": "../image/轮播图图片/t3.avif",
+        "text": "寻找北京对影视剪辑感兴趣的年轻人",
+        "name": "&nbsp;米塔在线",
+        "imga": "../image/轮播图图片/UP.png",
+        "ad": "../image/轮播图图片/广告.png"
+    },
+    {
+        "pic": "../image/轮播图图片/t4.avif",
+        "text": "洋仔给岱昆变魔术珍贵影像",
+        "name": "&nbsp_十四君_&nbsp;·&nbsp;10-5",
+        "imga": "../image/轮播图图片/UP.png",
+        "ad": "../image/轮播图图片/广告.png"
+    },
+    {
+        "pic": "../image/轮播图图片/t5.avif",
+        "text": "第一次被猫咪喝，有点紧张",
+        "name": "&nbsp猫顿庄园&nbsp;·&nbsp;10-1",
+        "imga": "../image/轮播图图片/UP.png",
+        "ad": "../image/轮播图图片/广告.png"
+    },
+    {
+        "pic": "../image/轮播图图片/s1.avif",
+        "text": "【S12全球总决赛】入围赛 10月5日 DFM vs RNG",
+        "name": "哔哩哔哩英雄联盟赛事",
+        "imga": "../image/轮播图图片/UP.png"
+    },
+    {
+        "pic": "../image/轮播图图片/s2.avif",
+        "text": "【非官方S12主题曲】-《天选》中国风燃曲为LPL加油！",
+        "name": "哔哩哔哩英雄联盟赛事",
+        "imga": "../image/轮播图图片/UP.png"
+    },
+    {
+        "pic": "../image/轮播图图片/s3.avif",
+        "text": "【直播】PCS7洲际赛DAY4",
+        "name": "",
+        "imga": ""
+    },
+    {
+        "pic": "../image/轮播图图片/s4.avif",
+        "text": "【直播】PMGC-PEL赛区资格赛",
+        "name": "",
+        "imga": ""
+    },
+    {
+        "pic": "../image/轮播图图片/s5.avif",
+        "text": "【S12全球总决赛】入围赛 10月2日 RNG vs ISG",
+        "name": "哔哩哔哩英雄联盟赛事",
+        "imga": "../image/轮播图图片/UP.png"
+    },
+    {
+        "pic":"../image/轮播图图片/s1.webp ",
+        "text":""
+    },
+    {
+        "pic":"../image/直播/zb1.avif",
+        "name":"哔哩哔哩英雄联盟赛事",
+        "text":"【预告】 9日5：00  RNG  vs  EDG",
+        "ad":"459,7万"
+
+    },
+    {
+        "pic":"../image/直播/zb2.avif",
+        "name":"longDD黄翔",
+        "text":"ti11全能解说",
+        "ad":"25.9万"
+    },
+    {
+        "pic":"../image/直播/zb3.avif",
+        "name":"老实憨厚的笑笑",
+        "text":"德云色 上分如喝汤",
+        "ad":"14.6万"
+    },
+    {
+        "pic":"../image/直播/zb4.avif",
+        "name":"骑虎者DC",
+        "text":"TI11突围的第一天",
+        "ad":"16.2万"
+    },
+    {
+        "pic":"../image/直播/zb5.avif",
+        "name":"完美世界电竞频道三",
+        "text":"【直播】TI11最终突围赛C路",
+        "ad":"117.3万"
+    },
+    {
+        "pic":"../image/直播/zb6.avif",
+        "name":"哔哩哔哩刀塔2赛事",
+        "text":"【直播】最终突围赛 Nouns vs Polaris！",
+        "ad":"97.6万"
+    },
+    {
+        "pic":"../image/直播/zb7.avif",
+        "name":"夏夏大魔王_Axx ",
+        "text":"解说突围赛 XG VS 液体",
+        "ad":"8.4万"
+    }
+]

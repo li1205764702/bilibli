@@ -1,0 +1,591 @@
+footer {
+  padding: 30px 0 30px 0;
+  background-color: #F6F7F8;
+  height: 350px;
+}
+footer .wall {
+  margin: 0 56px 0 56px;
+  height: 100%;
+}
+footer .wall .linkbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+footer .wall .linkbox .bilibili {
+  width: 350px;
+}
+footer .wall .linkbox .bilibili span {
+  display: block;
+  margin-bottom: 10px;
+  height: 20px;
+  color: #9499A0;
+  font-size: 16px;
+}
+footer .wall .linkbox .bilibili a {
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 4px;
+  line-height: 24px;
+  color: black;
+  font-size: 13px;
+}
+footer .wall .linkbox .door {
+  width: 450px;
+}
+footer .wall .linkbox .door span {
+  display: block;
+  margin-bottom: 10px;
+  height: 20px;
+  color: #9499A0;
+  font-size: 16px;
+}
+footer .wall .linkbox .door a {
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 4px;
+  line-height: 24px;
+  color: black;
+  font-size: 13px;
+}
+footer .wall .linkbox .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .wall .linkbox .app div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .wall .linkbox .app div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: #3752c8;
+  border-radius: 50%;
+  margin: 0 22px 0 22px;
+}
+footer .wall .linkbox .app div span {
+  margin-top: 10px;
+}
+footer .wall .line {
+  margin: 0 auto;
+  width: 80%;
+  height: 1px;
+  background-color: #E3E5E7;
+}
+footer .wall .otherlink {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  color: #9499A0;
+}
+footer .wall .otherlink .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .wall .otherlink .link .text_line {
+  height: 24px;
+}
+footer .wall .footer_img {
+  display: flex;
+  justify-content: center;
+}
+footer .wall .footer_img a img {
+  width: 96px;
+  height: 39px;
+  margin-right: 20px;
+}
+.fixRight {
+  width: 60px;
+  position: fixed;
+  right: -5px;
+  top: 40%;
+}
+.fixRight .open {
+  box-sizing: border-box;
+  margin-top: 6px;
+  padding: 8px 0 6px;
+  width: 40px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #E3E5E7;
+  background-color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.fixRight .open span {
+  font-size: 24px;
+}
+.fixRight .open p {
+  margin-top: 2px;
+}
+.fixRight .tel {
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 6px;
+  padding: 8px 0 6px;
+  width: 40px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #E3E5E7;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.fixRight .tel span {
+  font-size: 20px;
+}
+.fixRight .tel p {
+  margin-top: 2px;
+}
+.fixRight .Top {
+  opacity: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: 6px;
+  width: 40px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #E3E5E7;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 2px 5px 3px 5px;
+  transition: all 0.3s;
+}
+.fixRight .Top p {
+  text-align: center;
+  width: 24px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.fixRight .old {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: 6px;
+  width: 40px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #E3E5E7;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 2px 5px 3px 5px;
+  transition: all 0.3s;
+}
+.fixRight .old p {
+  text-align: center;
+  width: 24px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.fixRight .open:hover {
+  background-color: #E3E5E7;
+}
+.fixRight .tel:hover {
+  background-color: #E3E5E7;
+}
+.fixRight .Top:hover {
+  background-color: #E3E5E7;
+}
+.nav1 {
+  width: 100%;
+  display: none;
+  background-color: #fff;
+  height: 64px;
+  padding: 0 24px 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 99999999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+.nav1 .nav-left {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+.nav1 .nav-left li {
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 1.25;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.nav1 .nav-left li a {
+  color: #000;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  line-height: 64px;
+}
+.nav1 .nav-left li a span {
+  color: inherit;
+}
+.nav1 .nav-left li .bili {
+  width: 59px;
+  height: 27px;
+  vertical-align: bottom;
+  margin-right: 20px;
+}
+.nav1 .nav-left li img {
+  width: 18px;
+  height: 18px;
+  vertical-align: bottom;
+  margin-right: 6px;
+}
+.nav1 .nav-left #jump:hover {
+  animation-name: run;
+  /* 持续时间 ：盒子从左到右花费的时间*/
+  animation-duration: 0.3s;
+}
+@keyframes run {
+  /* from是动画的开始 */
+  0% {
+    transform: translatey(0px);
+  }
+  /* to是动画的结束 */
+  50% {
+    transform: translatey(-3px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.nav1 .search {
+  width: 25%;
+  flex: 1 auto;
+  height: 38px;
+}
+.nav1 .search .search-in {
+  margin: 0 auto;
+  min-width: 181px;
+  max-width: 500px;
+}
+.nav1 .search .search-in form {
+  border-radius: 8px 8px 8px 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 48px 0 4px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  line-height: 38px;
+  border: 1px solid var(--line_regular);
+  height: 40px;
+  background-color: #FFF;
+  opacity: 0.9;
+  transition: background-color 0.1s;
+}
+.nav1 .search .search-in form .search-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  width: 100%;
+  height: 32px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+}
+.nav1 .search .search-in form .search-content input {
+  flex: 1;
+  overflow: hidden;
+  padding-right: 8px;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  color: var(--text2);
+  font-size: 14px;
+  line-height: 20px;
+}
+.nav1 .search .search-in form .search-content .seach-clean {
+  width: 16px;
+  height: 16px;
+  right: 10px;
+  cursor: pointer;
+  visibility: hidden;
+}
+.nav1 .search .search-in form .search-content .seach-clean svg {
+  position: absolute;
+  color: #C9CCD0;
+}
+.nav1 .search .search-in form .search-btn {
+  position: absolute;
+  top: 3px;
+  right: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 6px;
+  line-height: 32px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.nav1 .search .search-in form .search-btn:hover {
+  background: #C9CCD0;
+}
+.nav1 .search .search-in form:hover {
+  background: #fff;
+  opacity: 1;
+}
+.nav1 .search .changeColor {
+  background: #E3E5E7;
+}
+.nav1 .nav-right {
+  display: flex;
+  margin-left: 10px;
+  position: relative;
+}
+.nav1 .nav-right .hoverPic {
+  top: 50px;
+  left: -140px;
+  position: absolute;
+  display: none;
+  z-index: -9999;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px 18px;
+  width: 300px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  visibility: hidden;
+  transition: ALL 0.3S;
+  transition-delay: 0.4s;
+}
+.nav1 .nav-right .hoverPic .name {
+  margin-top: 50px;
+  margin-bottom: 2px;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+}
+.nav1 .nav-right .hoverPic .money {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: 6px;
+  color: #000;
+}
+.nav1 .nav-right .hoverPic .money span {
+  margin-right: 4px;
+}
+.nav1 .nav-right .hoverPic .level {
+  color: #C9CCD0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+.nav1 .nav-right .hoverPic .fans {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.nav1 .nav-right .hoverPic .fans a {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #18191C;
+}
+.nav1 .nav-right .hoverPic .fans a span {
+  font-size: 12px;
+  color: #9499A0;
+}
+.nav1 .nav-right .hoverPic .personal {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 1.25;
+}
+.nav1 .nav-right .hoverPic .personal span {
+  width: 26px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+.nav1 .nav-right .hoverPic .personal a {
+  display: flex;
+  align-items: center;
+  font-family: PingFang SC, HarmonyOS_Medium, Helvetica Neue, Microsoft YaHei, sans-serif;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.25;
+  justify-content: space-between;
+  padding: 0 15px 0 10px;
+}
+.nav1 .nav-right .hoverPic .personal p {
+  color: #61666D;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 100px;
+}
+.nav1 .nav-right .hoverPic .personal .line {
+  height: 1px;
+  background: #c2c7ce;
+  box-sizing: border-box;
+  margin: 10px 0 10px 0;
+}
+.nav1 .nav-right .hoverPic .personal .out {
+  display: flex;
+  align-items: center;
+  padding: 0 15px 0 10px;
+}
+.nav1 .nav-right .hoverPic .personal .out span {
+  margin-right: 9px;
+}
+.nav1 .nav-right .nav-right-first {
+  z-index: 999999;
+}
+.nav1 .nav-right .nav-right-first .slide-in-left {
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.nav1 .nav-right .nav-right-first .slide-out-left {
+  -webkit-animation: slide-out-left 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: slide-out-left 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+@keyframes slide-in-left {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-12px, 30px) scale(2.2);
+  }
+}
+@keyframes slide-out-left {
+  0% {
+    transform: translate(-12px, 30px) scale(2.2);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.nav1 .nav-right .nav-right-first a {
+  width: 50px;
+  animation-delay: 0.3s;
+}
+.nav1 .nav-right .nav-right-first a img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1.5px solid #fff;
+  box-sizing: border-box;
+}
+.nav1 .nav-right .hover:hover .hoverPic {
+  visibility: initial;
+}
+.nav1 .nav-right #jump:hover {
+  animation-name: run;
+  /* 持续时间 ：盒子从左到右花费的时间*/
+  animation-duration: 0.3s;
+}
+@keyframes run {
+  /* from是动画的开始 */
+  0% {
+    transform: translatey(0px);
+  }
+  /* to是动画的结束 */
+  50% {
+    transform: translatey(-3px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.nav1 .nav-right li {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+.nav1 .nav-right li a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-right: 0;
+  min-width: 50px;
+  text-align: center;
+  font-size: 13px;
+  color: #000;
+}
+.nav1 .nav-right li a img {
+  width: 20px;
+  height: 20px;
+}
+.nav1 .nav-right #jump:hover img {
+  animation-name: run;
+  /* 持续时间 ：盒子从左到右花费的时间*/
+  animation-duration: 0.3s;
+}
+@keyframes run {
+  /* from是动画的开始 */
+  0% {
+    transform: translatey(0px);
+  }
+  /* to是动画的结束 */
+  50% {
+    transform: translatey(-3px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.nav1 .nav-right .nav-right-last a .nav-right-btn {
+  margin-left: 10px;
+  box-sizing: border-box;
+  padding: 0 12px 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 16px;
+  width: 90px;
+  height: 34px;
+  border-radius: 8px;
+  background: #fb7299;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1px;
+}
+.nav1 .nav-right .nav-right-last a .nav-right-btn:hover {
+  background-color: #fc8bab;
+}
